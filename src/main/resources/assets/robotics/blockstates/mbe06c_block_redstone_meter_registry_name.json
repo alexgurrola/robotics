@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "robotics:mbe06c_block_redstone_meter_model"
+    }
+  }
+}

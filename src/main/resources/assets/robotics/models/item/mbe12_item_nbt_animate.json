@@ -1,0 +1,45 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "layer0": "robotics:items/mbe12_item_nbt_animate_0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "chargefraction": 0.000
+      },
+      "model": "robotics:item/mbe12_item_nbt_animate_0"
+    },
+    {
+      "predicate": {
+        "chargefraction": 0.001
+      },
+      "model": "robotics:item/mbe12_item_nbt_animate_1"
+    },
+    {
+      "predicate": {
+        "chargefraction": 0.200
+      },
+      "model": "robotics:item/mbe12_item_nbt_animate_2"
+    },
+    {
+      "predicate": {
+        "chargefraction": 0.400
+      },
+      "model": "robotics:item/mbe12_item_nbt_animate_3"
+    },
+    {
+      "predicate": {
+        "chargefraction": 0.600
+      },
+      "model": "robotics:item/mbe12_item_nbt_animate_4"
+    },
+    {
+      "predicate": {
+        "chargefraction": 0.800
+      },
+      "model": "robotics:item/mbe12_item_nbt_animate_5"
+    }
+  ]
+}
+

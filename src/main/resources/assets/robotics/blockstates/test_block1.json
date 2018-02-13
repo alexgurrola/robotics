@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "robotics:test_block1_model"
+    }
+  }
+}

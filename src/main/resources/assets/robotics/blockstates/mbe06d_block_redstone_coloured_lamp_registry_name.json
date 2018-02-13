@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "robotics:mbe06d_block_redstone_coloured_lamp_model"
+    },
+    "facing=east": {
+      "model": "robotics:mbe06d_block_redstone_coloured_lamp_model",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "robotics:mbe06d_block_redstone_coloured_lamp_model",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "robotics:mbe06d_block_redstone_coloured_lamp_model",
+      "y": 270
+    }
+  }
+}

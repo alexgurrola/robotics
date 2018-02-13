@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "robotics:mbe30_inventory_basic_model"
+    }
+  }
+}

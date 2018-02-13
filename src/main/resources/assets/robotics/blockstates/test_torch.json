@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "robotics:test_torch_model_fixed"
+    }
+  }
+}

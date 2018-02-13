@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "robotics",
+    "name": "Robotics",
+    "description": "Robotics",
+    "version": "0.1.1",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "TGG and others"
+    ],
+    "credits": "The Forge, MCP, and FML guys, for making it possible",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

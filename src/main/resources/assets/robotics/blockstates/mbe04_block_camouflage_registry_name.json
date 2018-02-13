@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "robotics:mbe04_block_camouflage_model"
+    }
+  }
+}

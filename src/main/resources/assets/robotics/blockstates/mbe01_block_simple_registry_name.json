@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "robotics:mbe01_block_simple_model"
+    }
+  }
+}

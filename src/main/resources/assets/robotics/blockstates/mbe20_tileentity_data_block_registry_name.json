@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "robotics:mbe20_tileentity_data_block_model"
+    }
+  }
+}

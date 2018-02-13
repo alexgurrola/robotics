@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "robotics:mbe50_block_flame_emitter_model"
+    }
+  }
+}

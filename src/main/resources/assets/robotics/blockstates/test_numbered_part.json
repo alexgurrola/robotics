@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "robotics:test_numbered_part_model"
+    }
+  }
+}
