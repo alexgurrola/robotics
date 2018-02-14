@@ -7,18 +7,20 @@ Ore
 
 Natural:
 
-- Lithium
+- Cinnabar
 - Copper
 - Gold
 - Lead
-- Mercury
+- Magnesium
 - Silicon
 - Silver
 - Zinc
 
 Impurities:
 
-- Cadmium
+- Cadmium (Zinc)
+- Lithium (Granite)
+- Mercury (Cinnabar)
 
 Gas
 ---
