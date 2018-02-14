@@ -54,8 +54,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
    The initClientOnly method must be moved to a different class StartupClientOnly, which is never loaded in the DedicatedServer at all.
  */
 
-@Mod(modid = Robotics.MODID, version = Robotics.VERSION,
-        guiFactory = Robotics.GUIFACTORY)
+@Mod(modid = Robotics.MODID, version = Robotics.VERSION, guiFactory = Robotics.GUIFACTORY)
 //delete guiFactory if MBE70 not present and you don't have a configuration GUI
 public class Robotics
 {
@@ -63,7 +62,7 @@ public class Robotics
     //  build.gradle file (the version, group, and archivesBaseName parameters)
     //  resources/mcmod.info (the name, description, and version parameters)
     public static final String MODID = "robotics";
-    public static final String VERSION = "1.12.2a";
+    public static final String VERSION = "0.1.1";
 
     public static final String GUIFACTORY = "robotics.mbe70_configuration.MBEGuiFactory"; //delete if MBE70 not present
 
