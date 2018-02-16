@@ -1,6 +1,6 @@
 package robotics.testingarea;
 
-import robotics.mbe01_block_simple.BlockSimple;
+import robotics.hectorite_clay.HectoriteClay;
 
 /**
  * User: The Grey Ghost
@@ -20,8 +20,8 @@ public class StartupCommon
 //  public static BlockTestTorch blockTestTorch;  // this holds the unique instance of your block
 //  public static BlockTestNumberedPart blockTestNumberedPart;  // this holds the unique instance of your block
 
-    public static BlockSimple block1;
-    public static BlockSimple block2;
+    public static HectoriteClay block1;
+    public static HectoriteClay block2;
     public static ItemArmorTickTest itemArmorTickTest;
 
     public static void preInitCommon()
@@ -30,8 +30,8 @@ public class StartupCommon
 //    itemArmorTickTest.setRegistryName("test_item_simple_registry_name");
 //    GameRegistry.register(itemArmorTickTest);
 
-//    block1 = (BlockSimple)(new BlockSimple().setUnlocalizedName("test_block1"));
-//    block2 = (BlockSimple)(new BlockSimple().setUnlocalizedName("test_block2"));
+//    block1 = (HectoriteClay)(new HectoriteClay().setUnlocalizedName("test_block1"));
+//    block2 = (HectoriteClay)(new HectoriteClay().setUnlocalizedName("test_block2"));
 //    GameRegistry.registerBlock(block2, "test_block2");
 //    GameRegistry.registerBlock(block1, "test_block1");
 

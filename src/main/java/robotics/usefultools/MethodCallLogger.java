@@ -42,10 +42,12 @@ public class MethodCallLogger
     private StringBuilder outputBufferClient = new StringBuilder(INITIAL_STRING_CAPACITY);
     private StringBuilder outputBufferServer = new StringBuilder(INITIAL_STRING_CAPACITY);
     private Side forcedSideForTesting = null;
+
     public MethodCallLogger()
     {
         this(System.out);
     }
+
     public MethodCallLogger(PrintStream stream)
     {
         printStream = stream;

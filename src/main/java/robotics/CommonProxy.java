@@ -15,14 +15,14 @@ public abstract class CommonProxy
      */
     public void preInit()
     {
-        //read config first
-        robotics.mbe70_configuration.StartupCommon.preInitCommon();
+        // read config first
+        robotics.configuration.StartupCommon.preInitCommon();
 
-        robotics.mbe01_block_simple.StartupCommon.preInitCommon();
-        robotics.mbe02_block_partial.StartupCommon.preInitCommon();
-        robotics.mbe03_block_variants.StartupCommon.preInitCommon();
-        robotics.mbe04_block_dynamic_block_model1.StartupCommon.preInitCommon();
-        robotics.mbe05_block_dynamic_block_model2.StartupCommon.preInitCommon();
+        // ore
+        robotics.hectorite_clay.StartupCommon.preInitCommon();
+
+        // examples
+        /* *
         robotics.mbe06_redstone.StartupCommon.preInitCommon();
         robotics.mbe08_creative_tab.StartupCommon.preInitCommon();
         robotics.mbe10_item_simple.StartupCommon.preInitCommon();
@@ -40,6 +40,7 @@ public abstract class CommonProxy
         robotics.mbe60_network_messages.StartupCommon.preInitCommon();
         robotics.mbe75_testing_framework.StartupCommon.preInitCommon();
         robotics.testingarea.StartupCommon.preInitCommon();
+        /* */
     }
 
     /**
@@ -48,13 +49,13 @@ public abstract class CommonProxy
      */
     public void init()
     {
-        robotics.mbe70_configuration.StartupCommon.initCommon();
+        robotics.configuration.StartupCommon.initCommon();
 
-        robotics.mbe01_block_simple.StartupCommon.initCommon();
-        robotics.mbe02_block_partial.StartupCommon.initCommon();
-        robotics.mbe03_block_variants.StartupCommon.initCommon();
-        robotics.mbe04_block_dynamic_block_model1.StartupCommon.initCommon();
-        robotics.mbe05_block_dynamic_block_model2.StartupCommon.initCommon();
+        // ore
+        robotics.hectorite_clay.StartupCommon.initCommon();
+
+        // examples
+        /* *
         robotics.mbe06_redstone.StartupCommon.initCommon();
         robotics.mbe08_creative_tab.StartupCommon.initCommon();
         robotics.mbe10_item_simple.StartupCommon.initCommon();
@@ -71,7 +72,8 @@ public abstract class CommonProxy
         robotics.mbe50_particle.StartupCommon.initCommon();
         robotics.mbe60_network_messages.StartupCommon.initCommon();
         robotics.mbe75_testing_framework.StartupCommon.initCommon();
-//    robotics.testingarea.StartupCommon.initCommon();
+        robotics.testingarea.StartupCommon.initCommon();
+        /* */
     }
 
     /**
@@ -79,13 +81,13 @@ public abstract class CommonProxy
      */
     public void postInit()
     {
-        robotics.mbe70_configuration.StartupCommon.postInitCommon();
+        robotics.configuration.StartupCommon.postInitCommon();
 
-        robotics.mbe01_block_simple.StartupCommon.postInitCommon();
-        robotics.mbe02_block_partial.StartupCommon.postInitCommon();
-        robotics.mbe03_block_variants.StartupCommon.postInitCommon();
-        robotics.mbe04_block_dynamic_block_model1.StartupCommon.postInitCommon();
-        robotics.mbe05_block_dynamic_block_model2.StartupCommon.postInitCommon();
+        // ore
+        robotics.hectorite_clay.StartupCommon.postInitCommon();
+
+        // examples
+        /* *
         robotics.mbe06_redstone.StartupCommon.postInitCommon();
         robotics.mbe08_creative_tab.StartupCommon.postInitCommon();
         robotics.mbe10_item_simple.StartupCommon.postInitCommon();
@@ -103,6 +105,7 @@ public abstract class CommonProxy
         robotics.mbe60_network_messages.StartupCommon.postInitCommon();
         robotics.mbe75_testing_framework.StartupCommon.postInitCommon();
         robotics.testingarea.StartupCommon.postInitCommon();
+        /* */
     }
 
     // helper to determine whether the given player is in creative mode

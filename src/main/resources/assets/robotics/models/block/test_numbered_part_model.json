@@ -1,11 +1,11 @@
 {
   "textures": {
-    "down": "robotics:blocks/mbe01_block_simple_face0",
-    "up": "robotics:blocks/mbe01_block_simple_face1",
-    "north": "robotics:blocks/mbe01_block_simple_face2",
-    "east": "robotics:blocks/mbe01_block_simple_face5",
-    "south": "robotics:blocks/mbe01_block_simple_face3",
-    "west": "robotics:blocks/mbe01_block_simple_face4",
+    "down": "robotics:blocks/hectorite_clay_face0",
+    "up": "robotics:blocks/hectorite_clay_face1",
+    "north": "robotics:blocks/hectorite_clay_face2",
+    "east": "robotics:blocks/hectorite_clay_face5",
+    "south": "robotics:blocks/hectorite_clay_face3",
+    "west": "robotics:blocks/hectorite_clay_face4",
     "particle": "blocks/lapis_block"
   },
   "elements": [

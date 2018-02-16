@@ -41,6 +41,7 @@ public class GuiInventoryFurnace extends GuiContainer
     final int FLAME_HEIGHT = 14;
     final int FLAME_X_SPACING = 18;
     private TileInventoryFurnace tileEntity;
+
     public GuiInventoryFurnace(InventoryPlayer invPlayer, TileInventoryFurnace tileInventoryFurnace)
     {
         super(new ContainerInventoryFurnace(invPlayer, tileInventoryFurnace));

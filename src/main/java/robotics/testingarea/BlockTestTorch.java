@@ -11,7 +11,7 @@
 // * User: The Grey Ghost
 // * Date: 24/12/2014
 // *
-// * BlockSimple is a ordinary solid cube with the six faces numbered from 0 - 5.
+// * HectoriteClay is a ordinary solid cube with the six faces numbered from 0 - 5.
 // * For background information on blocks see here http://greyminecraftcoder.blogspot.com.au/2014/12/blocks-18.html
 // */
 //public class BlockTestTorch extends Block
@@ -46,7 +46,7 @@
 //    return false;
 //  }
 //
-//  // render using a BakedModel (mbe01_block_simple.json --> mbe01_block_simple_model.json)
+//  // render using a BakedModel (hectorite_clay.json --> hectorite_clay_model.json)
 //  // not strictly required because the default (super method) is 3.
 //  @Override
 //  public int getRenderType() {

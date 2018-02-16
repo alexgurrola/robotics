@@ -38,6 +38,7 @@ public class ItemNBTAnimate extends Item
     // NB there are twenty minecraft game loop "ticks" per second.
     static public final int CHARGE_UP_INITIAL_PAUSE_TICKS = 10;
     static public final int CHARGE_UP_DURATION_TICKS = 20;
+
     public ItemNBTAnimate()
     {
         this.setMaxDamage(0);

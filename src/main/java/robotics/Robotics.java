@@ -64,7 +64,7 @@ public class Robotics
     public static final String MODID = "robotics";
     public static final String VERSION = "0.1.1";
 
-    public static final String GUIFACTORY = "robotics.mbe70_configuration.MBEGuiFactory"; //delete if MBE70 not present
+    public static final String GUIFACTORY = "robotics.configuration.RoboticsGuiFactory"; //delete if MBE70 not present
 
     // The instance of your mod that Forge uses.  Optional.
     @Mod.Instance(Robotics.MODID)

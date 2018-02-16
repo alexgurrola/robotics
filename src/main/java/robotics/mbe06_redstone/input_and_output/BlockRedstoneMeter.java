@@ -229,7 +229,7 @@ public class BlockRedstoneMeter extends Block
         return true;
     }
 
-    // render using a BakedModel (mbe01_block_simple.json --> mbe01_block_simple_model.json)
+    // render using a BakedModel (hectorite_clay.json --> hectorite_clay_model.json)
     // not strictly required because the default (super method) is MODEL.
     @Override
     public EnumBlockRenderType getRenderType(IBlockState iBlockState)

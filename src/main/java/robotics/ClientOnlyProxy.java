@@ -19,13 +19,13 @@ public class ClientOnlyProxy extends CommonProxy
     public void preInit()
     {
         super.preInit();
-        robotics.mbe70_configuration.StartupClientOnly.preInitClientOnly();
+        robotics.configuration.StartupClientOnly.preInitClientOnly();
 
-        robotics.mbe01_block_simple.StartupClientOnly.preInitClientOnly();
-        robotics.mbe02_block_partial.StartupClientOnly.preInitClientOnly();
-        robotics.mbe03_block_variants.StartupClientOnly.preInitClientOnly();
-        robotics.mbe04_block_dynamic_block_model1.StartupClientOnly.preInitClientOnly();
-        robotics.mbe05_block_dynamic_block_model2.StartupClientOnly.preInitClientOnly();
+        // ore
+        robotics.hectorite_clay.StartupClientOnly.preInitClientOnly();
+
+        // examples
+        /* *
         robotics.mbe06_redstone.StartupClientOnly.preInitClientOnly();
         robotics.mbe08_creative_tab.StartupClientOnly.preInitClientOnly();
         robotics.mbe10_item_simple.StartupClientOnly.preInitClientOnly();
@@ -43,6 +43,7 @@ public class ClientOnlyProxy extends CommonProxy
         robotics.mbe60_network_messages.StartupClientOnly.preInitClientOnly();
         robotics.mbe75_testing_framework.StartupClientOnly.preInitClientOnly();
         robotics.testingarea.StartupClientOnly.preInitClientOnly();
+        /* */
     }
 
     /**
@@ -52,13 +53,13 @@ public class ClientOnlyProxy extends CommonProxy
     public void init()
     {
         super.init();
-        robotics.mbe70_configuration.StartupClientOnly.initClientOnly();
+        robotics.configuration.StartupClientOnly.initClientOnly();
 
-        robotics.mbe01_block_simple.StartupClientOnly.initClientOnly();
-        robotics.mbe02_block_partial.StartupClientOnly.initClientOnly();
-        robotics.mbe03_block_variants.StartupClientOnly.initClientOnly();
-        robotics.mbe04_block_dynamic_block_model1.StartupClientOnly.initClientOnly();
-        robotics.mbe05_block_dynamic_block_model2.StartupClientOnly.initClientOnly();
+        // ore
+        robotics.hectorite_clay.StartupClientOnly.initClientOnly();
+
+        // examples
+        /* *
         robotics.mbe06_redstone.StartupClientOnly.initClientOnly();
         robotics.mbe08_creative_tab.StartupClientOnly.initClientOnly();
         robotics.mbe10_item_simple.StartupClientOnly.initClientOnly();
@@ -76,6 +77,7 @@ public class ClientOnlyProxy extends CommonProxy
         robotics.mbe60_network_messages.StartupClientOnly.initClientOnly();
         robotics.mbe75_testing_framework.StartupClientOnly.initClientOnly();
         robotics.testingarea.StartupClientOnly.initClientOnly();
+        /* */
     }
 
     /**
@@ -84,13 +86,13 @@ public class ClientOnlyProxy extends CommonProxy
     public void postInit()
     {
         super.postInit();
-        robotics.mbe70_configuration.StartupClientOnly.postInitClientOnly();
+        robotics.configuration.StartupClientOnly.postInitClientOnly();
 
-        robotics.mbe01_block_simple.StartupClientOnly.postInitClientOnly();
-        robotics.mbe02_block_partial.StartupClientOnly.postInitClientOnly();
-        robotics.mbe03_block_variants.StartupClientOnly.postInitClientOnly();
-        robotics.mbe04_block_dynamic_block_model1.StartupClientOnly.postInitClientOnly();
-        robotics.mbe05_block_dynamic_block_model2.StartupClientOnly.postInitClientOnly();
+        // ore
+        robotics.hectorite_clay.StartupClientOnly.postInitClientOnly();
+
+        // examples
+        /* *
         robotics.mbe06_redstone.StartupClientOnly.postInitClientOnly();
         robotics.mbe08_creative_tab.StartupClientOnly.postInitClientOnly();
         robotics.mbe10_item_simple.StartupClientOnly.postInitClientOnly();
@@ -108,6 +110,7 @@ public class ClientOnlyProxy extends CommonProxy
         robotics.mbe60_network_messages.StartupClientOnly.postInitClientOnly();
         robotics.mbe75_testing_framework.StartupClientOnly.postInitClientOnly();
         robotics.testingarea.StartupClientOnly.postInitClientOnly();
+        /* */
     }
 
     @Override

@@ -110,6 +110,7 @@ public class AirstrikeMessageToServer implements IMessage
         return "AirstrikeMessageToServer[projectile=" + String.valueOf(projectile)
                 + ", targetCoordinates=" + String.valueOf(targetCoordinates) + "]";
     }
+
     public enum Projectile
     {
         PIG(1, "PIG"), SNOWBALL(2, "SNOWBALL"), TNT(3, "TNT"), SNOWMAN(4, "SNOWMAN"), EGG(5, "EGG"), FIREBALL(6, "FIREBALL");

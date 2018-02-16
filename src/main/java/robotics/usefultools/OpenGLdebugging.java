@@ -346,6 +346,7 @@ public class OpenGLdebugging
         public String description;
         public String category;
         public String fetchCommand;
+
         public GLproperty(int init_gLconstant, String init_name, String init_description, String init_category, String init_fetchCommand)
         {
             gLconstant = init_gLconstant;

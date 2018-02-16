@@ -21,11 +21,11 @@ public class StartupClientOnly
 
     public static void initClientOnly()
     {
-//    Item itemBlockSimple = GameRegistry.findItem("robotics", "mbe01_block_simple");
+//    Item itemHectoriteClay = GameRegistry.findItem("robotics", "hectorite_clay");
 //    Item itemBlockPartial = GameRegistry.findItem("robotics", "mbe02_block_partial");
 //    Item itemBlockTest1 = GameRegistry.findItem("robotics", "test_torch");
 //
-//    int i1 = Item.getIdFromItem(itemBlockSimple);
+//    int i1 = Item.getIdFromItem(itemHectoriteClay);
 //    int i2 = Item.getIdFromItem(itemBlockPartial);
 //    int i3 = Item.getIdFromItem(itemBlockTest1);
 

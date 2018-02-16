@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "robotics:blocks/hectorite_clay_face0",
+    "up": "robotics:blocks/hectorite_clay_face1",
+    "north": "robotics:blocks/hectorite_clay_face2",
+    "east": "robotics:blocks/hectorite_clay_face5",
+    "south": "robotics:blocks/hectorite_clay_face3",
+    "west": "robotics:blocks/hectorite_clay_face4",
+    "particle": "blocks/lapis_block"
+  }
+}

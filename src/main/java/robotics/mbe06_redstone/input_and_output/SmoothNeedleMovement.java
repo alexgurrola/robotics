@@ -34,6 +34,7 @@ public class SmoothNeedleMovement
     private double accelerationPhaseDuration;  // seconds
     private double steadySpeedPhaseDuration; // seconds
     private double decelerationPhaseDuration; // seconds
+
     public SmoothNeedleMovement(double needleAcceleration, double needleMaxSpeed)
     {
         NEEDLE_ACCELERATION = needleAcceleration;

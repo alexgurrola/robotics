@@ -1,7 +1,0 @@
-{
-  "parent": "robotics:block/mbe03_block_variants_model_shape",
-  "textures": {
-    "sign": "robotics:blocks/mbe03_block_variants_sign_blue",
-    "particle": "blocks/wool_colored_blue"
-  }
-}
