@@ -68,7 +68,11 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
     compile "com.github.mezz:JustEnoughItems:${jei_version}"
-    compile "com.github.TehNut:HWYLA:${jei_version}"
+    //compile "com.github.TehNut:HWYLA:${jei_version}"
+    // https://github.com/WanionCane/WanionLib
+    // https://github.com/WanionCane/UniDict
+    // McJtyLib
+    // TheOneProbe
     compile "com.github.Azanor:Baubles:${baubles_version}"
 }
 
