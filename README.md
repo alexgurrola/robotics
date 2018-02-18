@@ -12,16 +12,27 @@ I would like to use molarity instead of parts-per notation, but that can get dif
 
 ### Power
 
-I'm going to start out with basic Joules and we can move on from there, as it can be easily converted to anything else.
+I'm going to start out with basic [Joules](https://en.wikipedia.org/wiki/Joule) and we can move on from there, as it can be easily converted to anything else.
 
 Basic Entities
 --------------
 
 - AC Generator
 - Battery Charger
+- Battery Bay
+- Granite Dust
 - Hectorite Clay
-- Lithium (Raw)
+- Lithium Dust
+- Lithium Ingot
 - Lithium Ion Battery
 - Methane (Fuel)
 - Sentient Robot
 - USB-C Cable
+
+Recipes
+-------
+
+Granite -> Pulverize -> Granite Dust -> Centrifuge -> Lithium Dust
+
+Lithium Dust -> Smelt -> Lithium Ingot
+Lithium Dust -> Crucible -> Liquefied Lithium
